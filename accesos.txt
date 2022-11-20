@@ -67,8 +67,8 @@ router.post('/', usuarioCtrl.crearUsuario)
                
                    {
                     "nombre":"Fernando",
-                    "apellido":"Corvalan",
-                    "dni":"22400982",
+                    "apellido":"CCC",
+                    "dni":"22444555",
                     "usuario":"fc",
                     "contrasena":"xxxx"
    			}
