@@ -1,7 +1,4 @@
 LUG - Strings 
-Mongo: 
-https://cloud.mongodb.com/v2/6366b7cd6f5c493e33a831f2#metrics/replicaSet/6366b85de061f67d98202359/explorer/test
-
 
 ITEM
     marca: String,
