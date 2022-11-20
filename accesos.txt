@@ -1,0 +1,80 @@
+LUG - Strings 
+Mongo: 
+https://cloud.mongodb.com/v2/6366b7cd6f5c493e33a831f2#metrics/replicaSet/6366b85de061f67d98202359/explorer/test
+
+
+ITEM
+    marca: String,
+    nombre: String,
+    codebar: String,
+    precio: {type: Number,default:0}
+    
+Arroz		6376869e42dcbefa2ce9dd4b
+Fideos		637686fb42dcbefa2ce9dd4e
+Fideos2	6376871842dcbefa2ce9dd50
+
+router.get('/test', itemCtrl.test)
+
+
+router.get('/:id', itemCtrl.traerItems)
+
+
+router.post('/', itemCtrl.crearItem)
+
+
+router.put('/', itemCtrl.actualizarItem)
+
+
+router.delete('/:id', itemCtrl.eliminarItem)
+
+
+CARRITO
+
+de fernando / 637697d97eda924a9e9a131e / user: 63767f1adf920281a36ae8ae
+de juan / user: 63767fcadf920281a36ae8b1 / 6376cbd779ae67a8b3505ae9
+
+router.get('/test', carritoCtrl.test)
+
+
+router.get('/:id', carritoCtrl.traerCarrito)
+
+
+router.post('/:id', carritoCtrl.crearCarrito)  // //recibe id de carrito, array productos, booleano
+
+
+router.put('/', carritoCtrl.actualizarCarrito)
+
+
+
+router.delete('/:id', carritoCtrl.eliminarCarrito)
+
+
+USUARIO
+fernando /id: 63767f1adf920281a36ae8ae 
+juan perez / id: 63767fcadf920281a36ae8b1
+jose gonzalez / id: 63768003df920281a36ae8b3
+
+
+router.get('/:id', usuarioCtrl.traerUsuario)
+
+
+router.post('/', usuarioCtrl.crearUsuario) 
+		nombre: req.body.nombre,
+               apellido: req.body.apellido,
+               dni: req.body.dni,
+               usuario: req.body.usuario,
+               contrasena: req.body.contrasena
+               
+                   {
+                    "nombre":"Fernando",
+                    "apellido":"Corvalan",
+                    "dni":"22400982",
+                    "usuario":"fc",
+                    "contrasena":"xxxx"
+   			}
+
+
+router.put('/', usuarioCtrl.actualizarUsuario)
+
+
+router.delete('/:id', usuarioCtrl.eliminarUsuario)

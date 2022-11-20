@@ -1,0 +1,20 @@
+
+
+usuario1: 63767f1adf920281a36ae8ae
+carrito: 63799fd193645bffd9960983
+
+usuario2: 63767fcadf920281a36ae8b1
+carrito:  63799fdb93645bffd9960986
+
+
+usuario3: 63768003df920281a36ae8b3
+carrito:  63799ff593645bffd9960989
+
+
+productos: 
+6376869e42dcbefa2ce9dd4b / Arroz 
+637686fb42dcbefa2ce9dd4e / Fideos1
+6376871842dcbefa2ce9dd50 / Fideos2
+63799eb393645bffd996097c / Aceite
+63799ed293645bffd996097e / Detergente
+
